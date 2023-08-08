@@ -1,3 +1,4 @@
+import logo from '../assets/images/landing-img.png'
 const Landing = () => {
     return (
         <section className=" bg-[#1c2230]">
@@ -6,7 +7,7 @@ const Landing = () => {
 
 
        <div className=" w-[750px] max-w-full">
-                    <img src="/src/assets/images/landing-img.png" alt="landing" className=" w-full h-fit" />
+                   <img src={logo} alt="landing" className=" w-full h-fit" />
                 </div>
 
                 <div className=" text-white text-center">
